@@ -1,23 +1,24 @@
-import 'package:flutter/material.dart'; //ANDROID
+import 'package:flutter/material.dart'; //Android
 
-void main(){
-  runApp(MyApp());
+void main(){ //rodar a aplicação
+  runApp(Myapp());
 }
 
-class MyApp extends StatelessWidget{
+class Myapp extends StatelessWidget{
+  const Myapp({super.key});
+
   @override
   Widget build(BuildContext context) {
-   return MaterialApp(
-     home:Scaffold(
-      appBar:AppBar(
-        title: Text("Meu Primeiro App"),
-      ),
-      body: Center(
-        child: Text("Olá, Mundo!!!")
-      )
-     )
-   );
-  } 
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Meu Primeiro App"),
+        ),
+        body: Center(
+          child: Text("Olá Mundo!!!"),
+        ),
+      ) 
 
+    );
+  }
 }
-

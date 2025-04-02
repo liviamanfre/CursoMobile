@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 
-void main(){
-  runApp(MaterialApp(home:MyApp()));
+void main() {
+  runApp(MaterialApp(home: MyApp()));
 }
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Exemplo de Layout"),),
+      appBar: AppBar(title: Text("Exemplo de Layout")),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget{
               children: [
                 Container(width: 150, height: 150, color: Colors.blue),
                 Container(width: 150, height: 150, color: Colors.green),
-                Container(width: 150, height: 150, color: Colors.red)
+                Container(width: 150, height: 150, color: Colors.red),
               ],
             ),
             Row(
@@ -29,15 +31,16 @@ class MyApp extends StatelessWidget{
               children: [
                 Container(width: 150, height: 150, color: Colors.green),
                 Container(width: 150, height: 150, color: Colors.red),
-                Container(width: 150, height: 150, color: Colors.blue)
-              ],),
+                Container(width: 150, height: 150, color: Colors.blue),
+              ],
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(width: 150, height: 150, color: Colors.red),
                 Container(width: 150, height: 150, color: Colors.blue),
-                Container(width: 150, height: 150, color: Colors.green)
+                Container(width: 150, height: 150, color: Colors.green),
               ],
             ),
             Row(
@@ -47,7 +50,7 @@ class MyApp extends StatelessWidget{
                 Stack(
                   alignment: Alignment.center,
                   children: [
-                    Container(width: 150,height: 150, color: Colors.grey,),
+                    Container(width: 150, height: 150, color: Colors.grey,),
                     Icon(Icons.person)
                   ],
                 )

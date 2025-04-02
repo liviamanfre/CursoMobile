@@ -1,3 +1,3 @@
-# exemplo_widget_scaffold
+# exemplowidget_scaffold
 
 A new Flutter project.
