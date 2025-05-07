@@ -50,7 +50,7 @@ class _TelaCadastroAppState extends State<TelaCadastroApp>{
               //Campo Senha
               TextFormField(
                 decoration: InputDecoration(labelText: "Insira a Senha",
-                prefixIcon: IconButton(
+                suffixIcon: IconButton(
                   onPressed: (){
                     setState(() {
                       _senhaOculta = !_senhaOculta;

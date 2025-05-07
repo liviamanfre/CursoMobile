@@ -45,13 +45,13 @@ class MyApp extends StatelessWidget {
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 3,
                 crossAxisSpacing: 8,
-                mainAxisSpacing: 8 ),
-                itemCount: imagens.length, 
-                itemBuilder: (context,index)=>
+                mainAxisSpacing: 8),
+              itemCount: imagens.length, 
+              itemBuilder: (context,index)=>
                 GestureDetector(
                   onTap: () => _mostrarImagem(context,imagens[index]),
                   child: ClipRRect(borderRadius: BorderRadius.circular(10),
-                  child: Image.network(imagens[index], fit: BoxFit.cover)),
+                  child: Image.network(imagens[index],fit: BoxFit.cover)),
                 )))
           ],
         ),
@@ -59,11 +59,11 @@ class MyApp extends StatelessWidget {
     );
   }
   
-  void _mostrarImagem(BuildContext context, String imagen) {
+  void _mostrarImagem(BuildContext context, String imagem) {
     showDialog(
       context: context, 
       builder: (context) => Dialog(
-        child: Image.network(imagen),
+        child: Image.network(imagem),
       ));
   }
 }
