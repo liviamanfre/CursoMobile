@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import "dart:convert"; //pacote do dart (já vem instalado no projeto) -  não precisa instalar no pubspec
+import "dart:convert";//pacote do dart (já vem instalado no projeto) -  não precisa instalar no pubspec
+
+import 'tela_inicial.dart'; 
 
 
 
@@ -48,8 +50,8 @@ class _ConfigPageState extends State<ConfigPage> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "App de Configuração",
-      theme: temaEscuro ? ThemeData.dark() : ThemeData.light(),
-      home: TelaInicial()
+      theme: temaEscuro ? ThemeData.dark() : ThemeData.light(), //Operador Ternário ()
+      home: TelaInicial(temaEscuro: temaEscuro, nomeUsuario: nomeUsuario)
     );
   }
   
