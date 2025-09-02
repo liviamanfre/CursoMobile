@@ -11,7 +11,7 @@ class HomeView extends StatefulWidget {
 }
 
 class _HomeViewState extends State<HomeView> {
-  // atributos de navegação 
+  //atributos de navegação
   int _index = 0;
   //lista de páginas de navegação
   final List<Widget> _paginas = [
@@ -31,9 +31,9 @@ class _HomeViewState extends State<HomeView> {
           _index = i;
         }),
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.menu_book), label:"Livros"),
-          BottomNavigationBarItem(icon: Icon(Icons.assignment), label:"Empréstimos"),
-          BottomNavigationBarItem(icon: Icon(Icons.people), label:"Usuários"),
+          BottomNavigationBarItem(icon: Icon(Icons.menu_book), label: "Livros"),
+          BottomNavigationBarItem(icon: Icon(Icons.assignment), label: "Empréstimos"),
+          BottomNavigationBarItem(icon: Icon(Icons.people), label: "Usuários"),
         ]),
     );
   }

@@ -1,38 +1,53 @@
 {
-    "usuarios":[
-        {
-            "id":1,
-            "nome":"Mariana Pereira",
-            "email":"mariana@gmail.com"
-        },
-        {
-            "id":2,
-            "nome": "José Antonio",
-            "email":"jose@email.com"
-        }
-    ],
-    "livros":[
-        {
-            "id":1,
-            "titulo":"O Guia do Mochileiro das Galáxias",
-            "autor":"Douglas Adams",
-            "disponivel":false
-        },
-        {
-            "id":2,
-            "titulo": "Memórias Póstumas de Brás Cubas",
-            "autor": "Machado de Assis",
-            "disponivel":true
-        }
-    ],
-    "emprestimos":[
-        {
-            "id":1,
-            "usuarioId":1,
-            "livroId":1,
-            "dataEmprestismo":"2025-08-26",
-            "dataDevolucao":"2025-09-05",
-            "devolvido":false
-        }
-    ]
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Mariana Pereira",
+      "email": "mariana@gmail.com"
+    },
+    {
+      "id": "2",
+      "nome": "Tiago Silva",
+      "email": "tiago@gmail.com"
+    },
+    {
+      "id": "3",
+      "nome": "Maria Joana",
+      "email": "maria@gmail.com"
+    },
+    {
+      "id": "1290",
+      "nome": "Maria Joana",
+      "email": "maria@gmail.com"
+    },
+    {
+      "id": "1290",
+      "nome": "Nicki Minaj",
+      "email": "nickita@gmail.com"
+    }
+  ],
+  "livros": [
+    {
+      "id": "1",
+      "titulo": "O Guia do Mochileiro das Galáxias",
+      "autor": "Douglas Adams",
+      "disponivel": false
+    },
+    {
+      "id": "2",
+      "titulo": "50 Tons para o Sucesso",
+      "autor": "J. Edington",
+      "disponivel": true
+    }
+  ],
+  "emprestimos": [
+    {
+      "id": "1",
+      "usuarioId": 1,
+      "livroId": 1,
+      "dataEmprestimo": "2025-08-26",
+      "dataDevolucao": "2025-09-26",
+      "devolvido": false
+    }
+  ]
 }

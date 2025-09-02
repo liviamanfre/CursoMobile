@@ -1,7 +1,7 @@
 class UsuarioModel {
   //atributos
-  final String? id; //podeser nulo inicialmente
-  final String nome;
+  final String? id; //pode ser nulo inicialmente
+  final String nome; 
   final String email;
 
   //construtor
@@ -11,9 +11,9 @@ class UsuarioModel {
     required this.email
   });
 
-  //métodos
+  //métodos 
   //toJson
-  Map<String,dynamic> toJson() => {
+  Map<String, dynamic> toJson() => {
     "id":id,
     "nome":nome,
     "email":email
@@ -22,6 +22,6 @@ class UsuarioModel {
   //fromJson
   factory UsuarioModel.fromJson(Map<String,dynamic> json) => UsuarioModel(
     id: json["id"].toString(),
-    nome: json["nome"].toString(), 
+    nome: json["nome"].toString(),
     email: json["email"].toString());
 }
