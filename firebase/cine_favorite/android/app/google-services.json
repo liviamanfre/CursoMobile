@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "560491323343",
-    "project_id": "todo-list-900e0",
-    "storage_bucket": "todo-list-900e0.firebasestorage.app"
+    "project_number": "527878564192",
+    "project_id": "cine-favorite-5cdba",
+    "storage_bucket": "cine-favorite-5cdba.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:560491323343:android:2936b0b2029a9cf474fcba",
+        "mobilesdk_app_id": "1:527878564192:android:25d27b0aaae488bf03d605",
         "android_client_info": {
-          "package_name": "com.example.todo_list_firebase"
+          "package_name": "com.example.cine_favorite"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCxNEBe0pH5oVOZBq2O_uGIJ7k9kYwqsnA"
+          "current_key": "AIzaSyA-DLqBNlq8c7ASHIthWlgdKMqEKJD47Zc"
         }
       ],
       "services": {
